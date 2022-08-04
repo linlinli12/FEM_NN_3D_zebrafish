@@ -1,0 +1,73 @@
+relative_output_path result_sim_012121_2
+
+frame_dt 2
+sim_dt 0.1
+end_sim_t 20160
+ 
+invagination_simulation
+(
+   speed 0
+)
+ 
+surftrack_parameters
+(
+   use_fraction 1
+   min_edge_length 0.1
+   max_edge_length 1.0
+   max_volume_change 0.1
+   min_curvature_multiplier 1.0
+   max_curvature_multiplier 1.0
+   merge_proximity 0.001
+   repulsion_proximity 0.001
+   friction_coefficient 0.0
+   perform_improvement 1
+   allow_non_manifold 0
+   allow_topology_changes 1
+   collision_safety 1
+   subdivision_scheme butterfly
+)
+
+ecomsolfile
+(
+   filepath scripts/half_sph_mesh_061719.txt
+)
+
+camera
+(
+   target [0.0 0.0 0.0]
+   distance 1.5
+   heading 0.0
+   pitch 0.0
+)
+
+zebrafish_parameters
+(
+species_n 7
+DN 0.11115
+DBC 28.2328
+DBN 79.6011
+j1 0.53964
+j2 0.036134
+j3 0.010667
+k2 0.098218
+k_2 0.098218
+k3 0.00043955
+k_3 4.3955e-05
+decN 0.00058993
+decBC 0.00053228
+decBN 3.8513e-05
+lambda_tld_C 0.10417
+lambda_tld_BC 0.0031147
+decS 0.20631
+kit 1
+kmt 1
+Vs 0
+n 4
+ks 4.1
+DTld 0.011542
+decTld 0.00091829
+j4 5.346
+mutant_bmpmax 0
+mutant_szlmax 0
+szl_prameter_sampling 2
+)

@@ -1,0 +1,1 @@
+g++ -std=c++0x -I/Users/lynn/Downloads/eltopo-master/common -I/Users/lynn/Downloads/eltopo-master/eltopo3d -I/Users/lynn/Downloads/eltopo-master/zebrafish solvediffusion.cpp  -c -o solveiffusion.o
