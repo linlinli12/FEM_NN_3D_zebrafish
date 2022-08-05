@@ -74,6 +74,13 @@ Drivers:
 In zebrafish, the dynamic surface is assigned a linear velocity per vertex by a 
 "mesh driver".
 
+NN Training
+----------------------
+MLP_3D_train_v1.ipynb 
+
+Code for training a simple MLP NN network with 1D/3D simulation result.
+training dataset include a matrix with input parameters and output simulation result.
+
 References
 =====================
 
